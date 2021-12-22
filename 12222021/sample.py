@@ -53,3 +53,46 @@ print(x)
 print(y)
 print(z)
 
+# combine both text and variable using the '+' character
+# this can also can be added variable to variable, 
+
+x = "hello"
+print(x + " john") # prints hello john
+
+x = 5
+y = 10
+print(x+y) # prints 15 
+
+# BUTTTTT you cannot combine string and a number, otherwise it will give you error!!!
+
+#global variables, created outside of a function where everyone both inside and outside 
+# a function can access
+
+
+# begin example
+x = "johnny"
+def myfunc():
+    print(" hello" + x)
+myfunc()
+
+print("python is " + x)
+
+# end example
+
+# you can also use 'global' keyword
+def myfunc():
+    global y
+    y = "globall Y" # haha i so funny
+myfunc()
+
+print("hello " + y)
+
+# by doing global, you can also change a global variable inside a function
+
+a = "ABC"
+print(a) # so this hasn't been changed yet
+def myfunc():
+    global a
+    a = "xyz" # variable a changes here
+myfunc()
+print("learning my " + a) # this prints out learning my xyz
