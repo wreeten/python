@@ -96,3 +96,89 @@ def myfunc():
     a = "xyz" # variable a changes here
 myfunc()
 print("learning my " + a) # this prints out learning my xyz
+
+"""
+DATA TYPES 1:43
+
+text : str >> "hello world"
+
+numeric: int, float, complex >> 20 >> 20.5 >> 1j
+
+sequence types: list, tuple, range >> x = ["ap", "ban", "cher"] >> ("ap", "ban", "cher") >> range(6)
+
+mapping type: dict >> x = {"name" : "john", "age" : 01}
+
+set types: set, frozenset >> {"ap", "ban", "cher"} >> x = frozenset({"ap", "ban", "cher"})
+
+boolean type: bool >> x = True
+
+binary : bytes, bytearray,memoryview >> x = b"hello" >> bytearray(5) >> memoryview(bytes(5))
+
+type() function to get the type of any object
+you can use print(type(x))
+
+"""
+
+"""
+NUMBERS 
+
+integers: whole numbers, pos, or neg, without decimals
+
+float: number, pos or neg, containing one or more decimals
+can also be scientific numbers with "e"
+example:
+x = 35e3
+or
+z = 86.2e100
+
+complex. written with j as the imaginary part
+x = 3 + 5j
+
+
+TYPE CONVERSION
+
+x = 1 # int
+y = 2.8 # float
+z = 1j # complex
+
+
+a = float(x) # this converts from int to float in variable a >> 1.0
+b = int(y) # convert float to int >> 2
+c = complex(x) >> (1 + 0j)
+
+x = int(#)
+x = float(1)
+x = str(2) # will be '2'
+"""
+
+# multiline string is similar to the multi line comments
+a = """ blah
+blah
+blah this 
+is multiline """
+print(a)
+
+#strings are arrays representing unicode character, and single char is a string with lenght of 1
+
+a = "hello world"
+print(a[1]) # this prints out 'e' because h is position 0
+
+#loop through a string, 
+for x in "banana":
+    print(x) # this prints out a concatanation of banana(1 x 6)
+a = "hello world"
+print(len(a)) # this prints out 11, becauus "a = "hello world"" has value of 11 lol
+
+#check string,
+print( "hello" in a) # this comes out as a boolean to test if "hello" is a string, outputs True
+
+# this checks if 'hello' is present
+if "hello" in a:
+    print("yes, 'hello' is here")
+
+#if NOT, this checks if string is not present
+if "cute" in a:
+    print("cute" not in a) # if cute is not in 'a' then it doesn't do anyhting, if it is OP is false
+
+if "cute" not in a:
+    print("no cute is NOT prsent")
