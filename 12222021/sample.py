@@ -182,3 +182,67 @@ if "cute" in a:
 
 if "cute" not in a:
     print("no cute is NOT prsent")
+
+
+#sliiiicinggggg , returns a range of characters 
+
+b = "hello, mother"
+print(b[2:5]) #gets position 2-5, so llo is printer ONLY CCHARACTERS not the comma
+
+print(b[:5]) # position beginning to posiion 5, OP hello
+
+print(b[2:]) # prints from 2 to the end
+
+print(b[-5:-2]) # prints out 'oth'
+
+#uppercasing things
+
+a = "hello, mother"
+print(a.upper()) # creams above
+print(a.lower()) # whispers
+
+print(a.replace("h","j")) # replaces H with J, so this prints jello motjer
+
+print(a.split(",")) # returns ['hello, mother']
+
+#concatenate, u use +
+
+
+# remember before we cannot combine strings and numbers, so the best way to combine this is with format
+
+age = 999
+txt = "my name is john and {}" # the {} is the placeholder
+print(txt.format(age))
+
+qt=  3
+item =555
+price = 39.99
+myorder="I want {} pieces of item {} for {} dollars"
+print(myorder.format(qt, item, price)) # oooohhh this i scooooool
+
+
+# you can use index numbers {0} for places in right placeholders
+myorder="I want {2} pieces of item {0} for {1} dollars"
+print(myorder.format(qt,item,price)) #ooooh, so it does price first, then qt, then item
+
+# if you want to use illegal characters like "vikings", then you need to do the \ thing 
+# txt = "we are so called "engineers" "  this wont print because of the double quotes inside
+#txt = "we are so called \"engineers\" " // to make this possible you need to add
+
+# /*
+# this \' > single quotes
+# this \\ backslash
+# this \n new line
+# this\r carroage retirn
+# this\t tab
+# \b backspace
+# \f form feed
+# \ooo octal value
+# \xhh hex value
+# */
+
+
+#ctrl + / does this comment, so you highlight then press that command then it does multi line!!
+# BOOOOOLEANNNNSSSS
+
+print (10 > 9)
