@@ -1,0 +1,28 @@
+John - 12/23/2021
+Learning Vim :)
+
+:quit or :q << the way to exit vim
+typing <esc> switches to normal mode, and if you ':' it will produce : bottom screen.
+
+:write << saves changes
+:w file.txt << if this is a new file, this gives it a name before saving it caleld filed.txt
+
+:wq < save and quit < which is a combination of :w and :q command
+
+:q! < this is force quit, and it doesn't save any changes
+
+to open a file, you can do "vim hello.txt" in terminal
+
+you can also open multiple files at once "vim hello1.txt hello2.txt hello3.txt" in separate "buffers"
+
+:s and :substitute < you substitute strings, idk what this does yet tbh.. oh wait, it replaces a striing lol so an example is below v
+vim -c %s/john/python/g -c %s/do/re/g -c %s/fa/so/g hello.txt
+so what does this do? vim replaces instances of "john" with "python" then replaces "do" with "re" then rplace "fa" with "so". It sounds confusing, but i'll try it out later.
+
+vim -o2, opens vim and two horizonal windows
+vim -o5, 5 horizonal windows
+
+vim -5 hello1.txt hello2.txt fills up 5 horizontal windows and then fill up two with the txt file hello1 and hello2.
+
+to suspend vim, press ctrl + z, or :stop or :suspend
+to return to suspended vim, run 'fg' in terminal
