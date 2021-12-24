@@ -33,7 +33,7 @@ def maxProfit(self, prices: list[int]) -> int:
 
 #another solution is:
 
-define maxProf(self,prices: list[int]) -> int:
+def maxProf(self,prices: list[int]) -> int:
     minPrice = float('inf')
     maxProf = 0
     for price in prices:
