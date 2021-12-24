@@ -1,0 +1,18 @@
+John Learns Data Structures in Python! 
+12 / 23 / 2021
+
+I just realized, I need to relearn data strcutures... because tbh, I don't remember anything.
+
+I will be using this link : // nevermind, i did not like the video, so I'll just find another video
+To learn Data Structures and Algorithms
+
+15:10
+Data Structures | Binary Search, Linked Lists, and Complexity Anlysis
+
+12:38 (video time)
+1. state problem clearly, identify IO formats
+2. come with some exampels IO
+3. come up with correct solutions for the problem - plain english
+4. implement the solution and test using example inputs, fix bugs if anything
+5. analyze alg's complexity and identify inefficienies, if anything
+6. apply right techinique to overcome the ineff, then repeat 3-6 if you can.
