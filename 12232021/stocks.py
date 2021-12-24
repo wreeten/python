@@ -29,5 +29,14 @@ def maxProfit(self, prices: list[int]) -> int:
             l = r
         r += 1
     return maxPrice
-    
-    
+
+
+#another solution is:
+
+define maxProf(self,prices: list[int]) -> int:
+    minPrice = float('inf')
+    maxProf = 0
+    for price in prices:
+        minPrice = min(minPrice, price)
+        maxProf = max(maxProf, price - minPrice)
+    return maxProf
