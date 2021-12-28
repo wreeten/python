@@ -1,5 +1,5 @@
-# python
-john learns python for his job interview that is within 5 days :)
+<!-- # python
+john learns python for his job interview that is within 5 days :) -->
 
 # Table of Contents:
 ## 12 / 22 / 2021
