@@ -71,10 +71,16 @@
 #     sum += i
 # print("sum are " , sum)\
 
-i = *
-for i in range(1,10):
-    if i == 6:
-        print(i,"*")
-        continue
-    else:
-        print("no more")
+# i = *
+# for i in range(1,10):
+#     if i == 6:
+#         print(i,"*")
+#         continue
+#     else:
+#         print("no more")
+
+adj=['big', 'small', 'cute']
+fruits = ['apple', ' banana', 'cherry']
+for x in adj:
+    for y in fruits:
+        print(x,y)
